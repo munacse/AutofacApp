@@ -22,9 +22,6 @@ namespace AutofacApp
             var stuRepo = container.Resolve<StudentRepository>();
             var id = stuRepo.GetId();
 
-
-
-
         }
 
         private static IContainer CreateContainer()
